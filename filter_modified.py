@@ -18,4 +18,3 @@ for row in reader:
     if row['PURPOSE'] == 'WATER' and float(row['AMOUNT']) > 2000:
     	# write rows that match above filter
         writer.writerow(row)
-    if 	
