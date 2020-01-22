@@ -1,0 +1,5 @@
+The computer is enabled with a CSV reader and compatibility
+Data on price of water supply from a website (propublica.org) is taken and piped into a csv file expensive_water onto the machine
+The output of the command curl -N is now a Standard Output of a csv file
+This Standard Output then becomes the Standard Input into another command csvstat which converts csv files into text file, called expensive_water_summary.txt
+Another text file describing the data is created and named expensive_water_description (this file).
